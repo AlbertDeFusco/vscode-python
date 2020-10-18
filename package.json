@@ -88,6 +88,9 @@
         "workspaceContains:pyproject.toml",
         "onCustomEditor:ms-python.python.notebook.ipynb"
     ],
+    "extensionDependencies": [
+        "ms-toolsai.jupyter"
+    ],
     "main": "./out/client/extension",
     "contributes": {
         "snippets": [
