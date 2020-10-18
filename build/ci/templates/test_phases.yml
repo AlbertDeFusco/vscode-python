@@ -441,6 +441,7 @@ steps:
     condition: and(succeeded(), contains(variables['TestsToRun'], 'testSingleWorkspace'))
     env:
       DISPLAY: :10
+      RESOLVE_EXTENSION_DEPENDENCIES: 'true'
 
   # Run the single workspace tests for DS in VS Code Insiders.
   - script: |
