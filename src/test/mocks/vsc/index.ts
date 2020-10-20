@@ -292,6 +292,12 @@ export namespace vscMock {
         ) {}
     }
 
+    // tslint:disable-next-line: no-unnecessary-class
+    export class DebugProtocolVariable {}
+
+    // tslint:disable-next-line: no-unnecessary-class
+    export class DebugProtocolVariableContainer {}
+
     export enum FileType {
         Unknown = 0,
         File = 1,
